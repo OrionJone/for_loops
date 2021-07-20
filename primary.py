@@ -14,6 +14,8 @@ print(
 # 1 - for Loop | Printing your Name
 #   a. Create a for loop that runs 5 times.
 #   b. Within the for loop, print your name.
+
+
 #
 # Example Output
 #
@@ -24,7 +26,12 @@ print(
 #   elia
 #
 # Write Code Below #
+print('Orion')
+for i in range(10):
+    print i
 
+start = 1
+stop = 5
 
 # 2 - for Loop | Printing i
 #   a. Create a for loop that runs 5 times.
@@ -39,6 +46,12 @@ print(
 #   4
 #
 # Write Code Below #
+for i in range(5):
+    print ('cats are cool')
+
+start = 1
+stop = 5
+
 
 
 # 3 - for Loop | Running According to the User
@@ -59,6 +72,11 @@ print(
 #   $$$$$$
 #
 # Write Code Below #
+n = int(input('>> size | '))
+s = int(input('>> symbol | ')
+
+for i in range(n):
+    print(s * i)
 
 
 # ---------- Part 2 | Direct Access ---------- #
@@ -82,6 +100,10 @@ print(
 #   a
 #
 # Write Code Below #
+print('e')
+print('l')
+print('i')
+print('a')
 
 
 # 2 - for Loop | Printing the User's Name
@@ -105,6 +127,17 @@ print(
 #   e
 #
 # Write Code Below #
+print('e')
+print('l')
+print('i')
+print('a')
+
+print('d')
+print('e')
+print('p')
+print('p')
+print('e')
+
 
 
 # ---------- Part 3 | range() variations ---------- #
@@ -143,6 +176,11 @@ print(
 #
 # Write Code Below #
 
+for i in range(5):
+
+start = 10
+stop = 25
+
 
 # 2 - for Loop | Custom Step
 #   a. Create a for loop that runs from 5 to -5.
@@ -162,4 +200,10 @@ print(
 #   -4
 #
 # Write Code Below #
+
+for i in range(5):
+    print ('cats are cool')
+
+start = 5
+stop = -5
 
